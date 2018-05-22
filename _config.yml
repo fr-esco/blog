@@ -108,3 +108,9 @@ theme_config:
     android_chrome_color: "#039be5" # Blue 800
     nprogress_color: "#1976d2"
     nprogress_buffer: "800"
+  # TOC Button
+
+  toc:
+  #   use: choose whether the line_number of toc will show or not.
+  #       Available value of "linenumber": true | false
+    linenumber: false
