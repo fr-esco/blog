@@ -10,6 +10,9 @@ keywords: "typescript,javascript,node.js,angularjs,angular,development,developer
 author: Francesco Colamonici
 language: en
 timezone: Europe/Rome
+i18n:
+  type: [page, post]
+  generator: [index, archive, category, tag]
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -82,8 +85,26 @@ deploy:
 
 theme_config:
   head:
+    favicon: "/img/my-favicon.png"
+    high_res_favicon: "/img/my-favicon.png"
+    apple_touch_icon: "/img/my-favicon.png"
     keywords: "typescript,javascript,node.js,angularjs,angular,development,developer"
     site_verification:
       google:
+  img:
+    logo: "/img/my-logo.png"
+    avatar: "/img/my-avatar.png"
+    daily_pic: "/img/daily_pic.png"
+    sidebar_header: "/img/sidebar_header.png"
+    random_thumbnail: "/img/random/material-"
+    footer_image:
   uiux:
-    slogan: Hello, there!
+    slogan: Full-stack TypeScript Development
+    # https://material.io/tools/color/#!/?view.left=0&view.right=0&primary.color=1976D2&secondary.color=D50000
+    theme_color: "#1976d2" # Blue 700
+    theme_sub_color: "#d50000" # Red A700
+    hyperlink_color: "#d50000" # Red A700
+    button_color: "#546e7a" # Blue Grey 600
+    android_chrome_color: "#039be5" # Blue 800
+    nprogress_color: "#1976d2"
+    nprogress_buffer: "800"
